@@ -1,0 +1,4 @@
+s=input()
+st=int(input())
+en=int(input())
+print("\'",s[-st:-en],"\'")
