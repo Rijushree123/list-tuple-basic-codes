@@ -1,0 +1,8 @@
+t1=list(map(int,input().split()))
+start=int(input())
+end=int(input())
+tup=[]
+for i in range(start,end):
+    tup.append(t1[i])
+t=tuple(tup)
+print(t)
