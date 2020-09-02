@@ -1,0 +1,5 @@
+t1=tuple(list(map(int,input().split())))
+t2=tuple(list(map(int,input().split())))
+t3=tuple(list(map(int,input().split())))
+t4=(t1,t2,t3)
+print(t4)
