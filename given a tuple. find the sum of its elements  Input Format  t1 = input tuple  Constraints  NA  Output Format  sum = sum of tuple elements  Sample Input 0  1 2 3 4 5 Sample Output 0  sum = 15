@@ -1,0 +1,4 @@
+t1=list(map(int,input().split()))
+t=tuple(t1)
+s=sum(t)
+print("sum =",s)
