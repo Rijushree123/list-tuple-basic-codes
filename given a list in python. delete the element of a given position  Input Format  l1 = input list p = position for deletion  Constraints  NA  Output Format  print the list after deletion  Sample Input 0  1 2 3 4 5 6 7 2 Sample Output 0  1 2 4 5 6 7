@@ -1,0 +1,6 @@
+t1=list(map(int,input().split()))
+pos=int(input())
+t1.pop(pos)
+l=len(t1)
+for i in range(l):
+    print(t1[i],end=' ')
