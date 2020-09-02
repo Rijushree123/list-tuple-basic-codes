@@ -1,0 +1,6 @@
+name=input()
+age=int(input())
+salary=float(str(input()))
+address=input()
+List=[name,age,salary,address]
+print(List)
